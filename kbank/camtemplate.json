@@ -1,0 +1,14 @@
+{
+   "name": "kbank",
+   "description": "Description for kbank.",
+   "type": "userCreated",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Other"
+   },
+   "metadata": {
+     "displayName": "kbank",
+     "bullets": []
+   }
+ }

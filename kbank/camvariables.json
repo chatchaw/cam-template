@@ -1,0 +1,171 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [
+    {
+      "name": "Instances-ibm_compute_vm_instance.vm_instance",
+      "label": "Instances - ibm_compute_vm_instance.vm_instance"
+    },
+    {
+      "name": "Other-ibm",
+      "label": "Other - ibm"
+    },
+    {
+      "name": "instances",
+      "label": "Instances"
+    },
+    {
+      "name": "ibm_storage_file_storage",
+      "label": "ibm_storage_file Storage"
+    },
+    {
+      "name": "ibm_compute_vm_instance_connection",
+      "label": "ibm_compute_vm_instance Connection"
+    }
+  ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "ibm_bmx_api_key",
+      "label": "Ibm Bmx Api Key",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "ibm_sl_username",
+      "label": "Ibm Sl Username",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "ibm_sl_api_key",
+      "label": "Ibm Sl Api Key",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_domain",
+      "label": "Vm Instance Domain",
+      "description": "The domain for the computing instance.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_hostname",
+      "label": "Vm Instance Hostname",
+      "description": "The hostname for the computing instance.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_datacenter",
+      "label": "Vm Instance Datacenter",
+      "description": "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_os_reference_code",
+      "label": "Vm Instance Os Reference Code",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_connection_user",
+      "label": "Vm Instance Connection User",
+      "description": "Vm Instance Connection User",
+      "type": "string",
+      "default": "root",
+      "validation": "",
+      "group_name": "ibm_compute_vm_instance_connection",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_connection_password",
+      "label": "Vm Instance Connection Password",
+      "description": "Vm Instance Connection Password",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "ibm_compute_vm_instance_connection",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_instance_connection_host",
+      "label": "Vm Instance Connection Host",
+      "description": "Vm Instance Connection Host",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "ibm_compute_vm_instance_connection",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
